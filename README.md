@@ -23,13 +23,20 @@ Generate visual and statistical insights for potential policy-making or agritech
 
 # **Features :**
 
-**State_Name :**	Name of the Indian state where the crop is cultivated \n
-**District_Name :**	District within the state \n
-**Crop_Year	:** Year of crop production \n
-**Season :**	Season in which the crop was grown (e.g., Kharif, Rabi) \n
-**Crop :**	Name of the crop \n
-**Area :**	Area under cultivation (in hectares) \n
+**State_Name :**	Name of the Indian state where the crop is cultivated 
+
+**District_Name :**	District within the state 
+
+**Crop_Year	:** Year of crop production 
+
+**Season :**	Season in which the crop was grown (e.g., Kharif, Rabi) 
+
+**Crop :**	Name of the crop 
+
+**Area :**	Area under cultivation (in hectares) 
+
 **Production :**	Amount of crop produced (in tonnes or applicable units)
+
 # **Null Values Handling :**
 Only the Production column had null values. \n
 Removed nulls via interpolation
